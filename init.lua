@@ -14,6 +14,10 @@ vim.opt.rtp:prepend(lazypath)
 require("vim-options")
 require("vim-keymaps")
 require("lazy").setup("plugins", {
+	checker = {
+		enabled = true,
+		notify = false,
+	},
   change_detection = {
     notify = false,
   },

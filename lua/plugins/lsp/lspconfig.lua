@@ -88,6 +88,7 @@ return {
       end,
     })
 
+    --TODO: full integration of python, not currently doing the auto completion
     -- Configurar Pyright como servidor LSP para Python
     lspconfig.pyright.setup({
       capabilities = capabilities,
